@@ -1,0 +1,405 @@
+
+body{
+    font-family: "Roboto";
+}
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,p,h4{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+list-style: none;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.header-link{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #000000;
+
+
+}
+.header-span-link{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.header-item{
+    
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.02em;
+margin-left: 93px;
+}
+
+.hdr-list{
+    display: flex;
+}
+
+.contacts{
+    margin-left: 50px;
+}
+
+.head .container{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.header-list{
+    margin-right:auto ;
+    display: flex;
+    align-items: center;
+}
+
+.link-header{
+    color: #000000;
+}
+.link-head{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.figure{
+  padding-top: 200px;
+  padding-bottom: 200px;  
+background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("./img/hero.jpg");
+text-align: center;
+
+}
+
+.figure-text{
+    font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+
+margin-bottom: 30px;
+color: #FFFFFF;
+     
+}
+.figure-button{
+    background: #2196F3;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+border: none;
+padding: 10px 24px;
+}
+
+.article{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.article-item::before{
+    background-color: #F5F4FA;;
+    width: 270px;
+height: 120px;
+content: "";
+display: block;
+background-repeat:no-repeat;
+background-position: center;
+background-size: 70px;
+}
+
+.article-item:first-child::before{
+   background-image: url("./img/antenna.png");
+}
+
+.article-item:nth-child(2)::before{
+    background-image: url("./img/clock.png");
+}
+
+.article-item:nth-child(3)::before{
+    background-image: url("./img/diagram.png");
+}
+
+.article-item:last-child::before{
+    background-image: url("./img/astronaut.png");
+}
+
+.article-list{
+  display: flex; 
+   
+}
+.article-item{
+    margin-left: 30px;
+    width: 270px;
+}
+
+.article-item:first-child{
+    margin-left: 0px;
+}
+
+.article-text{
+    color: #757575;
+    margin-top: 10px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+    
+}
+
+.article-title{
+    color: #000000;
+    margin-top: 30px;
+}
+
+.image-section{
+    padding-bottom: 94px;   
+}
+
+.image-text{
+    font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-bottom: 50px;
+
+}
+
+.image-list{
+    display: flex;
+
+}
+
+.image-item{
+   margin-left: 30px;
+   width: 370px;
+height: 294px; 
+}
+
+.image-item:first-child{
+    margin-left: 0px;
+}
+
+.team-card-text{
+    font-weight: 700;
+font-size: 36px;
+line-height: 42pt;
+text-align: center;
+letter-spacing: 0.03em;
+padding-top: 94px;
+margin-bottom: 50px;
+color: #212121;
+
+}
+
+.team-card-list{
+    display: flex;
+    color: #FFFFFF;
+}
+
+.team-card-item{
+margin-left: 30px;
+font-weight: 500;
+font-size: 16px;
+line-height: 19pt;
+
+text-align: center;
+letter-spacing: 0.03em;
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+color: #212121;
+
+}
+
+.team-card-item:first-child{
+    margin-left: 0px;
+}
+
+.team-card-image-text{
+    color: #757575;
+    font-weight: 400;
+font-size: 16px;
+line-height: 0.842;
+padding-bottom: 30px;
+}
+
+.team-card{
+    background: #F5F4FA;
+padding-bottom: 94px;
+}
+
+.team-name{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+margin-top: 30px;
+margin-bottom: 10px;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.footer{
+background: #2F303A;
+width: 1600px;
+height: 252px;
+}
+
+.footer-link{
+    
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer-span{
+    color: #FFFFFF;
+}
+
+.footer-item{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+
+letter-spacing: 0.03em;
+margin-top: 20px;
+color: #FFFFFF;
+font-family: "Roboto";
+}
+
+.footer-item-2{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1;
+
+margin-top: 9px;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+font-family: "Roboto";
+}
+
+.footer-title{
+    color: #FFFFFF;
+    font-size: 14px;
+line-height: 1.14;
+}
+
+.footer-social-links{
+    margin-left: 516px;
+    margin-top: -100px;
+}
+
+.footer-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.icon-contacts{
+    margin-right: 10px;
+    fill: #757575;
+}
+
+.icon-team{
+    margin-right: 33px;
+    margin-top: 28px;
+    margin-bottom: 42px;
+    fill: #AFB1B8;
+    background:#FFFFFF; 
+    width: 20px;
+    height: 20px; 
+}
+
+.icon-clients{
+    margin-left: 161px;
+    margin-top: 69px;
+    margin-bottom: 114px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.icon-footer{
+    fill: #FFFFFF;
+    margin-left: 33px;
+    margin-top: 32px;
+}
+
+.icon-footer:first-child{
+    margin-left: 0px;
+}
+
+.icon-footer:hover{
+    background-color: #2196F3;
+}
+
+.icon-clients:hover{
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+}
+
+.icon-clients:first-child{
+    margin-left: 0;
+}
+
+.icon-team:last-child{
+    margin-right: 0;
+}
+
+.icon-team:hover{
+    fill: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.icon-contacts:hover{
+    fill: #2196F3;
+}
+
+.link-header:hover{
+    color: #2196F3;
+}
+
+.link-head:hover{
+    color: #2196F3;
+}
+
+
+
