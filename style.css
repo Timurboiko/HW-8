@@ -355,6 +355,12 @@ line-height: 1.14;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     box-sizing: border-box;
+
+}
+
+.clients-title{
+    text-align: center;
+    margin-top: 94px;
 }
 
 .icon-footer{
@@ -389,16 +395,14 @@ line-height: 1.14;
     background-color: #2196F3;
 }
 
-.icon-contacts:hover{
-    fill: #2196F3;
-}
 
 .link-header:hover{
     color: #2196F3;
 }
 
-.link-head:hover{
+.link-head:hover,.icon-contacts:hover{
     color: #2196F3;
+    fill: #2196F3;
 }
 
 
