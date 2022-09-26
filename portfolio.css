@@ -210,7 +210,8 @@ border: none;
 }
 
 .btn:hover{
-    color: #2196F3;
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
 
 .link-header:hover{
@@ -221,6 +222,9 @@ border: none;
     color: #2196F3;
 }
 
-
+.head{
+    border-bottom: 1px solid #ECECEC;
+    
+}
 
 
