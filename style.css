@@ -76,6 +76,7 @@ margin-left: 93px;
 
 .link-header{
     color: #000000;
+    transition: 250ms cubic-bezier(.17,.67,.93,.69);
 }
 .link-head{
     font-weight: 500;
@@ -83,6 +84,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
+transition: 250ms cubic-bezier(.17,.67,.93,.69);
 }
 
 .figure{
@@ -345,6 +347,7 @@ font-weight: 700px;
     padding: 10px 12px;
     background: #FFFFFF;
     border-radius: 20px;
+    transition: 250ms cubic-bezier(.17,.67,.93,.69);
 }
 
 .clients-title{
@@ -368,10 +371,12 @@ margin-top: 94px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     padding: 20px 63px;
+    transition: 250ms cubic-bezier(.17,.67,.93,.69);
 }
 
 .icon-clients{
     fill: #afb1b8;
+    transition: 250ms cubic-bezier(.17,.67,.93,.69);
 }
 
 .icon-clients:hover,.clients-item:hover{
@@ -392,7 +397,7 @@ margin-top: 94px;
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
-    
+    transition: 250ms cubic-bezier(.17,.67,.93,.69);
 }
 
 .icon-footer-item{
@@ -400,6 +405,7 @@ margin-top: 94px;
     background: rgba(255, 255, 255, 0.1);
     padding: 12px 12px;
     border-radius: 50px;
+    transition: 250ms cubic-bezier(.17,.67,.93,.69);
 }
 
 .icon-footer-item:hover,.icon-footer:hover{
@@ -413,6 +419,7 @@ margin-top: 94px;
 
 .icon-footer{
     fill: #FFFFFF;
+    
 }
 
 .icon-footer-list{
@@ -435,6 +442,7 @@ margin-top: 94px;
 .icon-contacts{
     margin-right: 10px;
     fill: #757575;
+    transition: 250ms cubic-bezier(.17,.67,.93,.69);
 }
 
 .modal-window{
@@ -481,12 +489,14 @@ color: #757575;
 height: 40px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
+transition: 250ms cubic-bezier(.17,.67,.93,.69);
 }
 
 .icon-modal{
     position: absolute;
     left: 50px;
     margin-top: 15px;
+    transition: 250ms cubic-bezier(.17,.67,.93,.69);
 }
 
 .icon-modal:hover,.modal-input:hover{
@@ -524,6 +534,7 @@ color: #757575;
 height: 120px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
+transition: 250ms cubic-bezier(.17,.67,.93,.69);
 }
 
 .btn-modal{
@@ -539,7 +550,7 @@ color: #000000;
 border-radius: 4px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border: none;
-
+transition: 250ms cubic-bezier(.17,.67,.93,.69);
 }
 
 .btn-modal:hover{
@@ -557,6 +568,11 @@ border: none;
 
 .boxes-list{
     display: flex;
+}
+
+.boxes-item{
+    left: 0px;
+    top: 0px;
 }
 
 .boxes-item:first-child{
