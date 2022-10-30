@@ -41,7 +41,7 @@
                 ЕФЕКТИВНІ РІШЕННЯ ДЛЯ 
                 <br> ВАШОГО БІЗЕСУ
             </h1>
-            <button class="figure-button">
+            <button data-open-modal class="figure-button">
                 Замовити послугу
             </button>
         </section>
@@ -211,9 +211,9 @@
     </div>
 </section>
     </footer>
-    <div class="modal-window">
-        <a href="./index.html"><svg class="close-modal" width="18px" height="18px"><use href="./symboldefts/symbol-defs-2.svg#icon-cross">
-        </use></svg></a>
+    <div class="modal-window" data-backdrop>
+        <button data-close-modal><svg class="close-modal" width="18px" height="18px"><use href="./symboldefts/symbol-defs-2.svg#icon-cross">
+        </use></svg></button>
         <h2 class="modal-title">Залиште свої дані, ми Вам зателефонуємо</h2>
 
         <ul class="modal-list">
@@ -252,5 +252,27 @@
             </li>
         </ul>
     </div>
+
+    <script>
+        const refs = {
+          openModalBtn: document.querySelector("[data-open-modal]"),
+          closeModalBtn: document.querySelector("[data-close-modal]"),
+          backdrop: document.querySelector("[data-backdrop]"),
+        };
+  
+        refs.openModalBtn.addEventListener("click", toggleModal);
+        refs.closeModalBtn.addEventListener("click", toggleModal);
+  
+        refs.backdrop.addEventListener("click", logBackdropClick);
+  
+        function toggleModal() {
+          refs.backdrop.classList.toggle("is-hidden");
+        }
+  
+        function logBackdropClick() {
+          console.log("Це клік в бекдроп");
+        }
+      </script>
+      
 </body>
 </html>
