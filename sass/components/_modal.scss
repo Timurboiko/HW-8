@@ -1,0 +1,138 @@
+.backdrop.is-hidden{
+    opacity:0;
+    pointer-events: none;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+   bottom: 0;
+  right: 0; 
+ 
+  background-color: rgba(244, 243, 245, 0.5);
+
+}
+
+.modal-window{
+    position: absolute;
+    width: 528px;
+    height: 581px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: $defalut-color;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    }
+    
+    .modal-title{
+        font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    margin-top: 42px;
+    
+    }
+    
+    .modal-list{
+        margin-top: 12px;
+        margin-left: 41px;
+    }
+    
+    .modal-item{
+        margin-top: 10px;
+    }
+    .modal-item:first-child{
+        margin-top: 0px;
+    }
+    
+    .modal-text{
+        font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: $icon-color;
+    }
+    
+    .modal-input{
+        width: 448px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transition: 250ms cubic-bezier(.17,.67,.93,.69);
+    }
+    
+    .icon-modal{
+        position: absolute;
+        left: 50px;
+        margin-top: 15px;
+        transition: 250ms cubic-bezier(.17,.67,.93,.69);
+    }
+    
+    .icon-modal:hover,.modal-input:hover{
+        fill: $hover-color;
+        border-color: $hover-color;
+    }
+    
+    .modal-link{
+        color: #000000;
+        margin-left: 54px;
+        margin-top: 25px;
+        font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: $icon-color;
+    }
+    
+    .modal-span{
+        text-decoration: underline;
+        color: $hover-color;
+    }
+    
+    .modal-button{
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .modal-button:hover{
+        fill: $hover-color;
+    }
+    
+    .modal-input-com{
+        width: 448px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transition: 250ms cubic-bezier(.17,.67,.93,.69);
+    }
+    
+    .btn-modal{
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-left: 165px;
+    text-align: center;
+    color: $standart-color;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    transition: 250ms cubic-bezier(.17,.67,.93,.69);
+    }
+    
+    .btn-modal:hover{
+        background: $hover-color;
+        color: $defalut-color;
+    }
+    
+    .modal-text:hover{
+        color: $hover-color;
+    }
+    
+    .modal-input-com:hover{
+        border: 1px solid $hover-color;
+    }
