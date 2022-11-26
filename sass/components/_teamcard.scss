@@ -1,0 +1,94 @@
+.team-card-text{
+    font-weight: 700;
+font-size: 36px;
+line-height: 42pt;
+text-align: center;
+letter-spacing: 0.03em;
+padding-top: 94px;
+margin-bottom: 50px;
+color: $font-color;
+
+}
+
+.team-card-list{
+    display: flex;
+    color: $defalut-color;
+}
+
+.team-card-item{
+margin-left: 30px;
+font-weight: 500;
+font-size: 16px;
+line-height: 19pt;
+
+text-align: center;
+letter-spacing: 0.03em;
+background: $defalut-color;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+color: $font-color;
+
+}
+
+.team-card-item:first-child{
+    margin-left: 0px;
+}
+
+.team-card-image-text{
+    color: #757575;
+    font-weight: 400;
+font-size: 16px;
+line-height: 0.842;
+padding-bottom: 30px;
+}
+
+.team-card{
+    background: $defalut-color;
+padding-bottom: 94px;
+}
+
+.team-name{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+margin-top: 30px;
+margin-bottom: 10px;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: $font-color;
+}
+
+.icon-card-item:hover,.icon-team:hover{
+    background-color: $hover-color;
+    fill: $defalut-color;
+}
+
+.icon-card-item:first-child{
+    margin-left: 0;
+}
+
+.icon-team{
+    width: 20px;
+    height: 20px;
+    fill: $icon-color-bright;
+    transition: 250ms cubic-bezier(.17,.67,.93,.69);
+}
+
+.icon-list-card{
+    margin-top: 16px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-card-item{
+    margin-left: 10px;
+    padding: 10px 12px;
+    background: $defalut-color;
+    border-radius: 20px;
+    transition: 250ms cubic-bezier(.17,.67,.93,.69);
+}
