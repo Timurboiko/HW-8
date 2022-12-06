@@ -19,31 +19,37 @@
   <body class="content-main">
     <header class="head">
       <div class="container">
-        <a class="header-link" href="./index.html"
-          ><span class="header-span-link">Web</span>Studio</a
-        >
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="link-header" href="./index.html">Студія</a>
+        <a class="header__link" href="./index.html"
+          ><span class="header__span-link">Web</span>Studio</a>
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="link__header" href="./index.html">Студія</a>
           </li>
-          <li class="header-item">
-            <a class="link-header" href="./portfolio.html">Портфоліо</a>
+          <li class="header__item">
+            <a class="link__header" href="./portfolio.html">Портфоліо</a>
           </li>
-          <li class="header-item">
-            <a class="link-header" href="">Контакти</a>
+          <li class="header__item">
+            <a class="link__header" href="">Контакти</a>
           </li>
         </ul>
-        <ul class="hdr-list">
+        <ul class="hdr__list">
           <li class="contacts">
-            <a class="link-head" href="malito:info@devstudio.com"
+            <svg class="icon__contacts" width="16" height="12">
+              <use href="./symboldefts/symbol-defs.svg#icon-e-mail"></use>
+            </svg>
+            <a class="link__head" href="mailto:info@devstudio.com"
               >info@devstudio.com</a>
           </li>
-          <li class="contacts">
-            <a class="link-head" href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="contacts__header">
+            <svg class="icon__contacts" width="10" height="16">
+              <use href="./symboldefts/symbol-defs.svg#icon-telefon"></use>
+            </svg>
+            <a class="link__head" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
     </header>
+    <main>
     <ul class="button-list">
       <li class="button-item"><button class="btn">Усе</button></li>
       <li class="button-item"><button class="btn">Веб-сайти</button></li>
@@ -98,13 +104,11 @@
         <h3 class="team-card-text">Застосунок</h3>
       </li>
     </ul>
-
+  </main>
     <footer class="footer">
       <div class="container">
         <section class="footer-section">
-          <a class="footer-link" href="./index.html"
-            >Web <span class="footer-span">Studio</span></a
-          >
+          <a class="footer-link" href="./index.html">Web <span class="footer-span">Studio</span></a>
           <p class="footer-item">м. Київ, пр-т Лесі Українки, 26</p>
           <p class="footer-item-2">info@example.com</p>
           <p class="footer-item-2">+38 099 111 11 11</p>
@@ -114,7 +118,9 @@
           <ul class="icon-footer-list">
             <li class="icon-footer-item">
               <svg class="icon-footer" width="20" height="20">
-                <use href="./symboldefts/symbol-defs.svg#icon-instagram"></use>
+                <use
+                  href="./symboldefts/symbol-defs.svg#icon-instagram"
+                ></use>
               </svg>
             </li>
             <li class="icon-footer-item">
