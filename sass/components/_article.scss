@@ -7,7 +7,6 @@
     background-color: $background-color;
     width: 270px;
 height: 120px;
-content: "";
 display: block;
 background-repeat:no-repeat;
 background-position: center;
@@ -19,19 +18,29 @@ background-size: 70px;
 }
 
 .article-item:nth-child(2)::before{
-    background-image: url("./img/clock.png");
+    background-image: url("../../img/clock.png");
 }
 
 .article-item:nth-child(3)::before{
-    background-image: url("./img/diagram.png");
+    background-image: url("../../img/diagram.png");
 }
 
 .article-item:last-child::before{
-    background-image: url("./img/astronaut.png");
+    background-image: url("../../img/astronaut.png");
 }
 
 .article-list{
-  display: flex; 
+  
+  
+  @media screen and (min-width: 480px){
+    display: block;
+  }
+  @media screen and (min-width: 768px){
+    display: block;
+  }
+  @media screen and (min-width: 1200px){
+    display: flex;
+  }
    
 }
 .article-item{
