@@ -1,28 +1,51 @@
 .figure{
-    padding-top: 200px;
-    padding-bottom: 200px;  
+
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../../img/hero.jpg");
   text-align: center;
-  
+    
+    @media screen and (min-width: 480px){
+      width: 480px;
+      padding-top: 118px;
+      padding-bottom: 118px;
+    }
+    @media screen and (min-width: 768px){
+      width: 768px;
+    }
+    @media screen and (min-width: 1200px){
+      width: 1600px;
+      padding-top: 200px;
+    padding-bottom: 200px;
+    }
   }
   
   .figure-text{
-      font-weight: 900;
+
+  @media screen and (min-width: 480px){
+    text-align: center;
+text-transform: uppercase;
+color: $defalut-color;
+    font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+  letter-spacing: 0.06em;
+  margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px){
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06em;
-  
-  margin-bottom: 30px;
-  color: $defalut-color;
-       
   }
+  }
+       
   .figure-button{
-      background: $hover-color;
-      border-radius: 4px;
-      color: $defalut-color;
-      font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  border: none;
-  padding: 10px 24px;
+    background: $hover-color;
+    border: none;
+    color: $defalut-color;
+    border-radius: 4px;
+      
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+
+padding: 10px 24px;
+
   }
