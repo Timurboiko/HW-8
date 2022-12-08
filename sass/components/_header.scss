@@ -17,34 +17,61 @@
     letter-spacing: 0.03em;
     color: $hover-color;
     }
-    .header__item{
-        
+    .header__item{ 
+    @media screen and (min-width: 768px){
+        margin-left: 51px;
         font-family: $header-font;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
-    margin-left: 93px;
+    
+    }   
+
+    @media screen and (min-width: 1200px){
+        margin-left: 93px;
+    }
     }
     
     .hdr__list{
-        display: flex;
+            
+            @media screen and (min-width: 480px){
+                display: none;
+            }
+
+            @media screen and (min-width: 768px){
+                display: block;
+                margin-left: 96px;
+            }
+            @media screen and (min-width: 1200px){
+                display: flex;
+            }
     }
     
     .contacts__header{
-        margin-left: 50px;
+        @media screen and (min-width: 1200px){
+            margin-left: 50px; 
+        }
+       
     }
     
     .head .container{
         display: flex;
         height: 80px;
         align-items: center;
-    }
+    }   
     
     .header__list{
-        margin-right:auto ;
-        display: flex;
-        align-items: center;
+            @media screen and (min-width: 480px){
+                display: none;
+                align-items: center;
+                margin-right:auto ;
+            }
+
+            @media screen and (min-width: 768px){
+                display: flex;
+                  margin-left: 88px;  
+            }
     }
     
     .link__header{
