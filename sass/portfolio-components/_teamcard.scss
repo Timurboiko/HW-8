@@ -1,24 +1,11 @@
-.team-card{
-
-    width: 370px;
-    height: 404px;
-    border: 1px solid $border-color;
+.team-card{    
+    @media screen and (min-width: 480px){ 
+        border: 1px solid $border-color;
     margin-left: 30px;
     margin-top: 30px;
-    
+    }
 }
 
-.team-card:nth-child(1){
-    margin-left: 0px;
-}
-
-.team-card:nth-child(4){
-    margin-left: 0px;
-}
-
-.team-card:nth-child(7){
-    margin-left: 0px;
-}
 
 
 .team-card-text{
@@ -38,10 +25,16 @@ color: $icon-color;
 }
 
 .team-card-list{
-    margin-left: 215px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 94px;
+    @media screen and (min-width: 480px){
+        margin-left: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    margin-bottom: 60px;
+    }
+    @media screen and (min-width: 1200px){
+        margin-left: 215px;
+        margin-bottom: 94px;
+    }
 }
 
 
