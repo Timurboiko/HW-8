@@ -1,11 +1,27 @@
 .button-list{
-    margin-top: 94px;
-    list-style: none;
-    display: flex;
+    @media screen and (min-width: 480px){
+        flex-wrap: wrap;
+        margin-top: 60px;
+        display: flex;
+        margin-left: 15px;
+    }
+    @media screen and (min-width: 768px){
     justify-content: center;
+    margin-left: 0px;
+    }
+    @media screen and (min-width: 1200px){
+        margin-top: 94px;
+    }
 }
 .button-item{
-    margin-left: 8px;
+    
+    @media screen and (min-width: 480px){
+        margin-top: 15px;
+        margin-left: 8px;
+    }
+    @media screen and (min-width: 768px){
+        margin-top: 0px;
+    }
 }
 
 .btn{
