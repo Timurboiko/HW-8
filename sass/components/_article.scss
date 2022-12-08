@@ -1,16 +1,32 @@
 .article{
     padding-top: 94px;
     padding-bottom: 94px;
+    @media screen and (min-width: 480px){
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
 .article-item::before{
+@media screen and (min-width: 480px){
     background-color: $background-color;
-    width: 270px;
+    width: 450px;
 height: 120px;
 display: block;
 background-repeat:no-repeat;
 background-position: center;
 background-size: 70px;
+}
+
+@media screen and (min-width: 768px){
+    width: 384px;
+    height: 120px;
+}
+
+@media screen and (min-width: 480px){
+    width: 270px;
+height: 120px;
+}
 }
 
 .article-item:first-child::before{
@@ -30,18 +46,16 @@ background-size: 70px;
 }
 
 .article-list{
-  
-  
-  @media screen and (min-width: 480px){
-    display: block;
-  }
-  @media screen and (min-width: 768px){
-    display: block;
-  }
-  @media screen and (min-width: 1200px){
-    display: flex;
-  }
-   
+    @media screen and (min-width: 480px){
+        display: block;
+    }
+    @media screen and (min-width: 768px){
+        flex-wrap: wrap;
+        display: flex;
+    }
+    @media screen and (min-width: 1200px){
+        display: flex;
+    } 
 }
 .article-item{
     margin-left: 30px;
@@ -49,7 +63,16 @@ background-size: 70px;
 }
 
 .article-item:first-child{
-    margin-left: 0px;
+    
+    @media screen and (min-width: 480px){
+        margin-left: 30px;
+    }
+    @media screen and (min-width: 768px){
+        margin-left: 30px;
+    }
+    @media screen and (min-width: 1200px){
+        margin-left: 0px;
+    }
 }
 
 .article-text{
