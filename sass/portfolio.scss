@@ -1,6 +1,7 @@
 @import"./base/reset";
 @import"./base/common";
-@import"./portfolio-components/header";
+@import"./utils/variables";
+@import"./components/header";
 @import"./portfolio-components/button";
 @import"./portfolio-components/teamcard";
-@import"./portfolio-components/footer"
+@import"./components/footer";
