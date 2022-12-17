@@ -23,28 +23,18 @@ color: $font-color;
 
 .team-card-list{
     display: flex;
+    flex-wrap: wrap;
     color: $defalut-color;
-
-    @media screen and (min-width: 480px){
-        display: block;
-    }
-
-    @media screen and (min-width: 768px){
-        display: flex;
-        flex-wrap: wrap;
-    }
-
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
     @media screen and (min-width: 1200px){
-        display: flex;
+        gap: 30px;
     }
 }
 
 .team-card-item{
-
-
-@media screen and (min-width: 480px){
-    margin-bottom: 30px;
-    margin-left: 30px;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -56,20 +46,7 @@ color: $font-color;
     color: $font-color;
 }
 
-@media screen and (min-width: 1200px){
-    margin-bottom: 0px;
-}
 
-}
-
-.team-card-item:first-child{
-    @media screen and (min-width: 480px){
-        margin-left: 30px;
-    }
-    @media screen and (min-width: 1200px){
-        margin-left: 0px;
-    }
-}
 
 .team-card-image-text{
     color: #757575;
@@ -118,6 +95,8 @@ color: $font-color;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
+    
+        
 }
 
 .icon-card-item{
