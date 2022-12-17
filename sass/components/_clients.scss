@@ -15,16 +15,11 @@ margin-top: 94px;
 }
 
 .clients-list{
-    
-
-    @media screen and (min-width: 480px){
         display: flex;
     margin-top: 30px;
     list-style: none;
     margin-bottom: 60px;
     flex-wrap: wrap;
-    }
-
     @media screen and (min-width: 768px){
         justify-content: center;
         margin-left: 30px;
@@ -36,25 +31,20 @@ margin-top: 94px;
     }
 }
 
-.clients-item{
-    
-    @media screen and (min-width: 480px){
-        margin-left: 30px;
+.clients-item{ 
+    width: 210px;
+    height: 92px;
+        margin-left: 15px;
         border: 1px solid $icon-color-bright;
         border-radius: 4px;
-        padding: 16px 52px;
         transition: 250ms cubic-bezier(.17,.67,.93,.69);
         margin-top: 30px;
-    }
-
-    @media screen and (min-width: 1200px){
-    padding: 16px 32px;
-}
 }
 
 .icon-clients{
     fill: $icon-color-bright;
     transition: 250ms cubic-bezier(.17,.67,.93,.69);
+    margin: 16px 52px;
 }
 
 .icon-clients:hover,.clients-item:hover{
